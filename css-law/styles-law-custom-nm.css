@@ -85,7 +85,6 @@ ul.link-list {
 }
 
 ul.link-list li {
-	font-size: 1.15em;
 	list-style: none; 
 }
 
@@ -101,7 +100,15 @@ ul.link-list li::before {
 
 ul.link-list li a {
 	font-weight: bold;
+	font-size: 1.15em;
 }
+
+ul.link-list li p {
+	margin-left: 1em;
+	font-size: .95em;
+	margin-bottom: 10px;
+}
+
 
 ul.link-list-explainer {
 	margin-left: 0;
