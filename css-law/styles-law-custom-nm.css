@@ -1,0 +1,195 @@
+/* LAW CSS ADJUSTMENTS - Nathan Martel */
+
+/* FACULTY DIRECTORY */
+
+#main-content #tabs>li a {
+    top: 1px;
+    display: inline;
+    font-family: Antenna Bold,Arial,sans-serif;
+    font-size: .75em;
+    font-weight: 700;
+    font-style: normal;
+    color: #6d1637;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: none;
+    background-color: #fff!important;
+    background: #fff!important;
+    background: none!important;
+    background-image: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+/*    border-bottom: 1px solid #08bcc1!important; */
+    outline: #fff;
+    text-decoration: none;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+/* IMAGE CAROUSEL */
+
+.carousel-caption {
+	padding: 13px 0 0 0;
+	background-color: transparent;
+} 
+
+.carousel-caption .container-fluid { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.carousel-control.left, .carousel-control.right {
+    height: 85%;
+}
+
+@media screen and (min-width: 768px) {
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -35px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -35px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	font-size: 40px;
+	width: 40px;
+	height: 40px;
+}
+}
+
+p.body.caption {
+	font-style: italic;
+	font-size: 1em;
+	line-height: 1.5em;
+/*	color: #959595; */
+}
+
+p.body.caption .lead-in {
+	font-style: normal;
+}
+
+
+
+/* LISTS */
+
+ul { 
+	float: none;
+	list-style-position: outside; 
+}
+
+ul.link-list {
+/*	margin-left: 0; */
+}
+
+ul.link-list li {
+	font-size: 1.15em;
+	list-style: none; 
+}
+
+/* Replace bullet with lighter square */
+ul.link-list li::before {
+  color: #959595;  
+  content: "\25AA";
+  font-size: .95em;
+  padding-right: .6em; 
+  position: relative;
+  top: -.1em; 
+}
+
+ul.link-list li a {
+	font-weight: bold;
+}
+
+ul.link-list-explainer {
+	margin-left: 0;
+}
+
+ul.link-list-explainer li {
+	margin-top:10px;
+	list-style: none;
+	-webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+ul.link-list-explainer li a { 
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+ul.link-list-explainer p {
+	font-size: .95em;
+	margin-bottom: 8px;
+}
+
+
+ul.link-list-explainer-inline {
+	margin-left: 0;
+}
+
+ul.link-list-explainer-inline li {
+	margin-top:20px;
+	border-bottom: 1px solid #cccccc;
+	list-style: none; 
+}
+
+ul.link-list-explainer-inline li:last-of-type {
+	border-bottom: none;
+}
+
+ul.link-list-explainer-inline li a { 
+	font-weight: bold;
+}
+
+ul.link-list-explainer-inline p {
+	font-size: .975em;
+}
+
+.two-column {
+	column-count: 2;
+    column-rule: 3px solid #fff;
+    column-gap: 40px;
+}
+
+.two-column ul {
+	margin: 0;
+}
+
+.two-column ul.link-list-explainer li:first-of-type {
+	margin:0px;
+}
+
+
+/* CARDS */
+
+.card {
+	margin: 15px 0;
+    border-radius: 4px;
+    background: #f1f1f1;
+}
+
+.card p:last-child {margin-bottom: 0;}
+
+.card-image {
+    margin: 0px;
+}
+
+.card-block {
+    padding: 25px;
+}
+
+h4.card-title {
+    font-family: 'Arnhem Bold', 'Georgia', serif !important;
+    text-transform: none;
+	font-size: 1.6em;
+	margin: 0px 0 12px 0;
+    line-height: 1.1;
+}
+
+.card button.btn {
+	margin-bottom: 5px;
+}
+
